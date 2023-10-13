@@ -1,0 +1,383 @@
+
+body{
+   margin: 0;
+   padding: 0;
+    width: 100vw;
+    height:100vh;
+    background-color: rgb(159, 186, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+
+img{
+
+    width: 25px;
+    height: 25px;
+    filter: hue-rotate(220deg);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+.links{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.contact-box h2{
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+
+.contact-links{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    max-width: 100%;
+    color: white;
+    font-size: x-large;
+    background-color: rgb(16, 16, 82);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.contact-form-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    max-width: 100%;
+    background-color: rgb(206, 214, 230);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+#myBtn{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color:black;
+    color: white;
+}
+#myBtn:hover{
+    background-color:rgb(253, 249, 249);
+    color: rgb(15, 0, 0);
+}
+
+
+div#myModal{
+    display:none;
+}
+
+
+div#myModal {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.623);    
+    color: rgb(5, 0, 0);
+}
+
+
+.modal-content{
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 20%;
+}
+
+
+input[type=text], [type=email]{
+    width: 100%;
+    height: 50px;
+    margin: 4px 0px;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+
+
+textarea [type=message] {
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    margin: 4px 0px;
+    box-sizing: border-box;
+    
+}
+
+
+label{
+    font-size:medium;
+    font-weight: bolder;
+    color: black;
+}
+
+
+.form-item{
+    margin: 30px;
+    width: fit-content;
+    position: relative;
+    text-align: center;
+    left: 50PX;
+}
+
+
+.form-item label{
+    position: absolute;
+    top:5px;
+    left: 15px;
+    z-index: 1;
+}
+
+
+input:focus{
+    margin-top: 20px;
+
+}
+
+textarea{
+    height:40px;
+    border: 1px solid;
+    
+}
+
+
+.submit-btn{
+    position: absolute;
+    right: 20%;
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+    background-color:black;
+    color: white;
+}
+.submit-btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+textarea:focus{
+    margin-top: 20px;
+}
+
+.form{
+   
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 31px;
+    margin: 30px;
+}
+@media(max-width:768px) {
+    
+    .contact-box {
+        margin: 30px;
+        flex-direction: column;
+    }
+    .contact-links {
+          border-radius:10px 10px 0 0;
+
+    }
+    .contact-form-wrapper {
+       
+        border-radius:0px 0px 10px 10px;
+    }
+}
+@media(max-width:375px){
+    .contact-box {
+        margin: 30px;
+        flex-direction: column;
+    }
+    .contact-links {
+        width: 200px;
+        border-radius:10px 10px 0 0;
+        font-size: large;
+        height: 250px;
+
+    }
+
+   .contact-form-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 200px;
+    max-width: 100%;
+    background-color: rgb(206, 214, 230);
+    border-radius:0px 0px 10px 10px;
+}
+
+
+#myBtn{
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+    background-color:black;
+    color: white;
+}
+#myBtn:hover{
+    background-color:rgb(253, 249, 249);
+    color: rgb(15, 0, 0);
+}
+
+
+div#myModal{
+    display:none;
+}
+
+
+div#myModal {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.623);    
+    color: rgb(5, 0, 0);
+}
+
+
+.modal-content{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+   
+    position: absolute;
+    right:10px
+
+    transform: translate(-40%, -40%);
+    
+}
+
+
+input[type=text], [type=email]{
+    width: 80%;
+    height: 40px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+
+
+textarea[type=message] {
+    
+    margin: 4px 0px;
+    box-sizing: border-box;
+    
+}
+
+
+label{
+    font-size:medium;
+    font-weight: bolder;
+    color: black;
+}
+
+
+.form-item{
+    margin: 10px;
+    width: fit-content;
+    position: relative;
+    text-align: center;
+    left: 4PX;
+}
+
+
+.form-item label{
+    position: absolute;
+    top:10px;
+    left: 30px;
+    z-index: 1;
+}
+
+
+input:focus{
+    margin-top: 30px;
+
+}
+
+textarea{
+     width: 80%;
+    height: 30px;
+   
+    border: 1px solid;
+    
+}
+
+
+.submit-btn{
+  
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+    background-color:black;
+    color: white;
+}
+.submit-btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+textarea:focus{
+    margin-top: 30px;
+}
+
+.form{
+   
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 21px;
+    margin: 30px;
+    
+   
+}
+}
+

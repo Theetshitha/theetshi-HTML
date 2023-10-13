@@ -1,0 +1,52 @@
+body{
+   width: 100vw;
+   height: 100vh;
+    background-image:url("https://www.klizer.com/wp-content/uploads/2023/05/headless.webp");
+    background-repeat: no-repeat;
+    margin: 0;
+}
+    
+.container{
+    margin-top: 152px;
+    max-width: 1440px;
+    width: 60%;
+    height: 100%;
+    color:white;
+}
+ h1
+    {
+       
+    color: #fff;
+    font-family: Literata,Sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 62px;
+    }
+p 
+  {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    width: 80%;
+    font-family: 'Inter', sans-serif;
+}
+
+.submit-btn{
+        margin-top: 20px;
+        position: absolute;
+        left:20px;
+        height: 7%;
+        width: 25%;
+        background-color:#00b49e;
+        color: rgb(21, 123, 231);
+        border-radius: 5px;
+        border:none;
+}
+
+.submit-btn:hover{
+    background-color: white;
+    color: black;
+    
+}
+    

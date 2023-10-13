@@ -1,0 +1,78 @@
+body{
+    margin : 0;
+    padding:0;
+    background-image: url("gre.jpeg");
+
+  
+}
+.container{
+    
+    padding-top: 30px;
+    
+    margin:0 auto;
+    width: 100%;
+    max-width: 600px;
+    background:rgb(240, 242, 243);
+    border-radius: 4px;
+    box-shadow: 0 10px 16px #ec08b34d;
+    background-image:
+url("green.jpeg")
+}
+
+
+.column{
+  background-image:url(bG.jpeg) ;
+  opacity: 1;
+    margin: 20px auto;
+    
+    text-align: center;
+    padding: 30px;
+}
+#grad {
+    background-image: linear-gradient(rgb(240, 232, 127),rgb(253, 245, 245), yellow);
+  }
+  #blue {
+    background-image: linear-gradient(to top,rgb(181, 241, 245),rgb(250, 243, 250), rgb(174, 211, 236));
+  }
+  #yell {
+    background-image: linear-gradient(to top,rgb(253, 110, 75),rgb(249, 252, 255), rgb(243, 70, 17));
+  }
+  
+.column button{
+  
+   padding: 10px;
+   width :90%;
+   
+   border: 4px solid;
+
+}
+.color{
+  background-image:url(bG.jpeg) ;
+    margin: 20px auto;
+   
+    text-align: center;
+    padding: 30px;
+}
+.color button{
+    padding: 10px;
+    width :90%;
+   
+    border: 4px solid;
+ 
+ }
+.center{
+  background-image:url(bG.jpeg) ;
+    margin: 20px auto;
+  
+    text-align: center;
+    padding: 30px;
+}
+.center button{
+    padding: 10px;
+    width :90%;
+    
+    border: 4px solid;
+ }
+button:hover{
+  color: rgb(253, 62, 253);
+}

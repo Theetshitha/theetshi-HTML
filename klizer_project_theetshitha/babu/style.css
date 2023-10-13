@@ -1,0 +1,41 @@
+.page2 body{
+    background-color: #fff
+}
+.container1{
+    max-width: 1000vw;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+}
+.content1{
+    width: 50%;
+    padding:0 auto;
+    margin: 0 auto;
+    font-size: 100%;
+    justify-content: center;
+}
+.content1 h1{
+    font-family: 'Literata', serif;
+    
+}
+.content1 p{
+
+    color: #041b2e;
+    font-style: 16px;
+    margin: 0px 0px 26.6px;
+    padding: 7px;
+    
+    font-family: 'Inter', sans-serif;
+    
+}
+.content1 h3{
+    font-family: 'Inter', sans-serif;
+}
+.photo{
+    padding: 20px;
+}
+
+
+
+

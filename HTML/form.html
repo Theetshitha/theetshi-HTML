@@ -1,0 +1,136 @@
+<style>
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.first {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=number],input[type=email], input[type=date], input[type=date]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+input[type=email]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Overwrite default styles of hr */
+.hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+ </style>
+
+<fieldset>
+    <legend>Registration Form</legend>
+<form action="mynew.html">
+    <div class="first">
+      <h1>Register</h1>
+      
+      <p>Please fill the form to register in to MyNew website.</p>
+      <hr>
+
+      <label for="name"><b>Enter Your Name:</b></label>
+      <input type="text" placeholder="Enter Name" name="name" id="name" required>
+      <br><br>
+
+      <label for="age"><b>Enter Your Age:</b></label>
+      <input type="number" placeholder="Enter Age" name="age" id="age" required>
+      <br><br>
+
+      <label for="dob"><b>Enter Your DOB:</b></label>
+      <input type="date" placeholder="Enter DOB" name="dob" id="dob" required>
+      <br><br>
+
+      <label><b>Choose Your Gender:</b></label><br><br>
+      <input type="radio" name="Gender" id="Male" value="Male">
+      <label for="Male">Male</label><br><br>
+      <input type="radio" name="Gender" id="Female" value="Female">
+      <label for="Female">female</label><br><br><br>
+
+      <label><b>Which programming laguage do you like ?</b></label><br><br>
+      <input type="checkbox" name="javascript" id="javascript" value="Female">
+      <label for="javascript">javascript</label><br><br>
+      <input type="checkbox" name="Python" id="Python" value="Python">
+      <label for="Python">Python</label><br><br>
+      <input type="checkbox" name="Php" id="Php value="Php">
+      <label for="Php">Php</label><br><br>
+      <input type="checkbox" name="Java" id="Java" value="Java">
+      <label for="Java">Java</label><br><br> <br>
+
+      <label><b>Select Your Favourite color: </b></label><br><br>
+    <select name="colors"   id="colors">
+      <option value="">Select colors</option><br>
+      <option value="green">green</option><br>
+      <option value="yellow">yellow</option><br>
+      <option value="white">white</option><br>
+      <option value="violet">violet</option><br>
+      <option value="brown">brown</option><br>
+    </select><br><br><br>
+
+     <label for="feedback"> <B>Write your feedback about DCKAP PALLI </B></label>
+     <br><br>
+     <textarea id="feedback" name="feedback" 
+     placeholder="Writesomething.." style="height:200px"style="width:200px"></textarea>
+     <br><br>
+     <h3>Upload your profile picture</h3><br>
+     <input type="file">
+     <br><br><br>
+     <audio controls>
+        <source src="1.ogg" type="audio/ogg">
+        <source src="1.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+
+    <iframe src="https://theetshi.wordpress.com/"
+     width="100%" height="300" title="Bleach: Thousand Year Blood War"></iframe>
+     <br><br><br>
+     
+    
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="email" id="email" required>
+      <br><br>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      <br><br>
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+      <hr>
+  
+      
+      <button type="submit" value= "submit"class="registerbtn">submit</button> <button type="reset" value= "reset"class="registerbtn">Reset</button>
+    </div>
+  
+  </form></fieldset>

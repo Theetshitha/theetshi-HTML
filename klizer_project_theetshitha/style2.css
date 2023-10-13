@@ -1,0 +1,39 @@
+.page2 body{
+   background-color:whitesmoke;
+
+   width: 100%;
+
+}
+.container3{
+    margin: 0 auto;
+   padding: 100px 0px;
+    
+}
+.text h1{
+    display: flex;
+    justify-content: center;
+    color: #041b2e;
+    font-family: 'Literata', serif;
+    font-size: 40px;  
+    margin: auto;
+    
+}
+#content3{
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     padding: 0px 100px 0px;
+     margin: 0 auto;
+     box-sizing: border-box; 
+    
+} 
+.image img{ 
+    
+    flex-wrap: wrap;
+    width: 170px;
+    height: 100px;
+    margin: 15px;
+   
+    
+
+}

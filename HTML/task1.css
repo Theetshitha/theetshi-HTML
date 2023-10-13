@@ -1,0 +1,73 @@
+h1{
+    color: #4e5ddd;
+    text-align: center;
+}
+h2{
+    color: red;
+    
+}
+h3{
+    color:rgb(206, 120, 223);
+}
+#idh3{
+    color: rgba(253, 110, 110, 0.774);
+    
+}
+.classh3{
+    font-style: italic;
+    color: rgb(20, 20, 20);
+    background-image:url("green.jpeg");
+}
+h3.classelementh3{
+    font-style: italic;
+    background-image: url(bg.jpeg);
+    color: lavenderblush;
+}
+.multiple{
+    background-image: linear-gradient(rgb(247, 162, 247),rgb(247, 246, 246),rgb(221, 168, 241));
+}
+.classname{
+    color: black;
+}
+*{
+    color: rgb(255, 8, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+p,pre{
+    background-image: url(blue.jpeg);
+    color: black;
+    
+}
+.container h5,h6{
+    background-color: rgb(200, 255, 0);
+    color: rgb(252, 129, 28);
+}
+.container >li,b{
+    background-image: url(pink.jpeg);
+    color: brown;
+}
+dd~i{  background-image: linear-gradient(to top ,rgb(144, 233, 132),rgb(247, 246, 246),rgb(245, 237, 130));}
+h2+h4{
+    background-image: url(peack.jpeg);
+}
+.link
+{
+    background-image: linear-gradient(to top ,rgb(144, 233, 132),rgb(247, 246, 246),rgb(245, 237, 130));
+   display: flex;
+   justify-content: center;
+}
+
+a:link{
+    color: green;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: yellow;
+
+}
+a:active{
+    color: blue;
+}
